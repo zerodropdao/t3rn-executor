@@ -14,9 +14,9 @@ echo "
 rm -rf executor
 
 # Download dan ekstrak file
-curl -L -o executor-linux-v0.29.0.tar.gz https://github.com/t3rn/executor-release/releases/download/v0.29.0/executor-linux-v0.29.0.tar.gz && \
-tar -xzvf executor-linux-v0.29.0.tar.gz && \
-rm -rf executor-linux-v0.29.0.tar.gz && \
+curl -L -o executor-linux-v0.31.0.tar.gz https://github.com/t3rn/executor-release/releases/download/v0.31.0/executor-linux-v0.31.0.tar.gz && \
+tar -xzvf executor-linux-v0.31.0.tar.gz && \
+rm -rf executor-linux-v0.31.0.tar.gz && \
 cd executor/executor/bin
 
 # Menanyakan PRIVATE_KEY_LOCAL kepada pengguna
